@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.formule {
+  @apply border-t-[3px] border-[#daab3a];
+}
+.title {
+  @apply bg-center h-[200px] rounded-t-lg py-[10px] px-[20px] bg-no-repeat bg-[#ffffff] pt-6 text-center whitespace-nowrap sm:text-left;
+}
+.menu {
+  @apply flex flex-col py-[10px] gap-[10px] sm:flex-row;
+}
